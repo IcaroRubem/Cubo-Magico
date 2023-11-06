@@ -22,7 +22,7 @@ body {
     transform-style: preserve-3d;
 }
 
-.x, .y {
+.x, .y, .z {
     position: absolute;
     background-color: #00f204;
     width: 30px;
