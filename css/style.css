@@ -50,4 +50,5 @@ body {
     background-color: #ffffff;
     transform-origin: 50% 50%;
     transform: translateX(50%);
+    position: absolute;
 }
