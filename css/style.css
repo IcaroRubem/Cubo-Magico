@@ -13,6 +13,9 @@ body {
 }
 
 .cartesian {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     aspect-ratio: 1/1;
     position: relative;
