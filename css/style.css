@@ -41,4 +41,5 @@ body {
 
 .z {
     background-color: #00dcf2;
+    transform: rotateZ(90deg);
 }
