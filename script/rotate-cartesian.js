@@ -1,6 +1,8 @@
 const cartesian = document.querySelector('.cartesian')
 let moveX = 0
 let moveY = 0
+let rotateX = 0
+let rotateY = 0
 
 document.addEventListener('touchstart', (touch) => {
     const {
@@ -9,14 +11,23 @@ document.addEventListener('touchstart', (touch) => {
     moveX = clientX
     moveY = clientY
 })
-    
+
 document.addEventListener('touchmove', (touch) => {
     const {
         clientX, clientY
     } = touch.touches[0]
-    
+
     if (clientX > moveX) {
-        
+        rotateX += 1
+    } else {
+        rotateX -= 1
     }
-    console.log(clientX, clientY)
+    
+    if (clientY > moveY) {
+        rotateY += 1
+    } else {
+        rotateY -= 1
+    }
+    
+    cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY})`
 })
