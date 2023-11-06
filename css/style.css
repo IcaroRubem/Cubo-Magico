@@ -43,5 +43,5 @@ body {
     height: 100%;
     background-color: #00e3f2;
     transform-origin: center;
-    transform: translateZ(50%);
+    transform: translateY(50%);
 }
