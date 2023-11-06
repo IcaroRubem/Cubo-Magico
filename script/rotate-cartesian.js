@@ -39,7 +39,7 @@ function rotateSelf(element) {
     // "")): 0
     const a = "translateX(50%) rotateY(90deg) rotateZ(90deg)"
     const b = "translateX(50%) rotateY(90deg) rotateZ(0deg)"
+
+    element.style.transform = rotate == a?b: a
     
-    element.style.transform = rotate == a?b:a
-    console.log(rotate)
 }
