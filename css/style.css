@@ -47,10 +47,16 @@ body {
     transform: rotateZ(90deg);
 }
 
-.topX, .topY {
+.top {
     height: 100%;
     aspect-ratio: 1/1;
     background-color: #ffffff;
     transform-origin: 50% 50%;
     transform: translateX(50%) rotateY(90deg);
+}
+
+.topY {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: #d22a2a;
 }
