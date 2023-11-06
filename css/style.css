@@ -11,6 +11,7 @@ body {
     height: 100vh;
     background-color: #000000;
     position: relative;
+    transform-style: preserver-3d;
 }
 
 .planoX, .planoY {
