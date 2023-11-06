@@ -37,7 +37,6 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
     transition: 1s all;
-    rotateX: 45deg;
 }
 
 .top {
