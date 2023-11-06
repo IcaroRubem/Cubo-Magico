@@ -22,7 +22,7 @@ body {
     transform-style: preserve-3d;
 }
 
-.top, .bottom, .left, .right, .front, .back {
+.cartesian > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,3 +32,10 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
 }
+
+.top {}
+.bottom {}
+.left {} 
+.right {}
+.front {}
+.back {}
