@@ -29,6 +29,6 @@ document.addEventListener('touchmove', (touch) => {
         rotateY -= 1
     }
 
-    cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY})`
+    cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
     console.log("Rotation...")
 })
