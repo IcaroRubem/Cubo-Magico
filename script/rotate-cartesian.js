@@ -31,3 +31,9 @@ document.addEventListener('touchmove', (touch) => {
 
     cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
 })
+
+function rotateSelf(element) {
+    const rotate = parseInt(element.style.rotateX.replace('px', ""))
+    
+    console.log(rotate)
+}
