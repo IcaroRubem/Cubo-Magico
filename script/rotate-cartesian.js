@@ -33,7 +33,10 @@ document.addEventListener('touchmove', (touch) => {
 })
 
 function rotateSelf(element) {
-    const rotate = element
+    let rotate = element.style.rotate
+    
+    rotate = rotate != ""?rotate.replace("px", ""):0
+    
 
     console.log(rotate)
 }
