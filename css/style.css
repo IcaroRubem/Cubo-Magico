@@ -48,6 +48,6 @@ body {
     height: 100%;
     aspect-ratio: 1/1;
     background-color: #ffffff;
-    transform-origin: center;
+    transform-origin: 50% 50%;
     transform: translateX(50%);
 }
