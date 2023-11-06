@@ -22,12 +22,13 @@ document.addEventListener('touchmove', (touch) => {
     } else {
         rotateX -= 1
     }
-    
+
     if (clientY > moveY) {
         rotateY += 1
     } else {
         rotateY -= 1
     }
-    
+
     cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY})`
+    console.log("Rotation...")
 })
