@@ -39,26 +39,26 @@ body {
 }
 
 .top {
-    background-color: #e60000;
+    background-color: #e6000043;
     transform: translateX(50%) rotateY(90deg);
 }
 .bottom {
-    background-color: #0d00e6;
+    background-color: #0d00e647;
     transform: translateX(-50%) rotateY(90deg);
 }
 .left {
-    background-color: #00e653;
+    background-color: #00e6534c;
     transform: translateY(50%) rotateX(90deg);
 }
 .right {
-    background-color: #00b6e6;
+    background-color: #00b6e634;
     transform: translateY(-50%) rotateX(90deg);
 }
 .front {
-    background-color: #dee600;
+    background-color: #dee6003e;
     transform: translateZ(calc(var(--width) / 2));
 }
 .back {
-    background-color: #e69200;
+    background-color: #e692003f;
     transform: translateZ(calc((var(--width) / 2) * -1));
 }
