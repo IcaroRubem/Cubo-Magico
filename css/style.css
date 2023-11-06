@@ -36,8 +36,10 @@ body {
 .top {
     background-color: #e60000;
 }
-.bottom {}
-.left {}
+.bottom {
+    background-color: #0d00e6;
+}
+.left { background-color: #00e653;}
 .right {}
 .front {}
 .back {}
