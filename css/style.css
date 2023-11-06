@@ -18,3 +18,10 @@ body {
     position: relative;
     transform-style: preserve-3d;
 }
+
+.x, .y {
+    position: absolute;
+    background-color: #00f204;
+    width: 30px;
+    height: 100%;
+}
