@@ -41,6 +41,5 @@ body {
     height: 100%;
     background-color: #00e3f2;
     transform-origin: center;
-    position: absolute;
-    transform: rotateY(90deg) translateZ(50%);
+    transform: translateZ(50%);
 }
