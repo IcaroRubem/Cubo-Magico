@@ -56,5 +56,5 @@ body {
 }
 .back {
     background-color: #e69200;
-    transform: translateZ(-50%) rotateY(90deg);
+    transform: translateZ(-50px) rotateY(90deg);
 }
