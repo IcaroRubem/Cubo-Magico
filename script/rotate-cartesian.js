@@ -33,5 +33,5 @@ document.addEventListener('touchmove', (touch) => {
 })
 
 db.addEventListener('input', (e) => {
-    tp.style.transform = `translateX(50%) rotateY(${db.value}deg)`
+    tp.style.transform = `translateX(50%) rotateY(${db.value}%)`
 })
