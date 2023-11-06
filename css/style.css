@@ -23,6 +23,9 @@ body {
 }
 
 .x, .y, .z {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     width: 30px;
     height: 100%;
@@ -50,5 +53,4 @@ body {
     background-color: #ffffff;
     transform-origin: 50% 50%;
     transform: translateX(50%);
-    position: absolute;
 }
