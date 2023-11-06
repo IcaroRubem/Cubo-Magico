@@ -18,9 +18,9 @@ document.addEventListener('touchmove', (touch) => {
     } = touch.touches[0]
 
     if (clientX > moveX) {
-        rotateX += 1
-    } else {
         rotateX -= 1
+    } else {
+        rotateX += 1
     }
 
     if (clientY > moveY) {
