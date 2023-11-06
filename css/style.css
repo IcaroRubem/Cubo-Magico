@@ -39,7 +39,15 @@ body {
 .bottom {
     background-color: #0d00e6;
 }
-.left { background-color: #00e653;}
-.right {}
-.front {}
-.back {}
+.left {
+    background-color: #00e653;
+}
+.right {
+    background-color: #00b6e6;
+}
+.front {
+    background-color: #dee600;
+}
+.back {
+    background-color: #e69200;
+}
