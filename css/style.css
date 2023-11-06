@@ -24,4 +24,6 @@ body {
     background-color: #00f204;
     width: 30px;
     height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
 }
