@@ -52,7 +52,7 @@ body {
 }
 .front {
     background-color: #dee600;
-    transform: translateX(50%) rotateX(90deg);
+    transform: translateZ(100px);
 }
 .back {
     background-color: #e69200;
