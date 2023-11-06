@@ -13,7 +13,7 @@ body {
 }
 
 :root {
-   --width: 200px; 
+    --width: 200px;
 }
 
 .cartesian {
@@ -56,7 +56,7 @@ body {
 }
 .front {
     background-color: #dee600;
-    transform: translateZ(100px);
+    transform: translateZ(calc(var(--width) / 2));
 }
 .back {
     background-color: #e69200;
