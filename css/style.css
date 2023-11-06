@@ -39,6 +39,7 @@ body {
 }
 .bottom {
     background-color: #0d00e6;
+    transform: translateX(-50%) rotate(90deg);
 }
 .left {
     background-color: #00e653;
