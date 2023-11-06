@@ -27,4 +27,5 @@ body {
 
 .planoX {
     transform: rotateX(80deg);
+    background-color: #ff4;
 }
