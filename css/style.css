@@ -30,3 +30,7 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
 }
+
+.y {
+    transform: rotateY(90deg);
+}
