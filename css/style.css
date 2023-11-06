@@ -10,3 +10,8 @@ body {
     justify-content: center;
     height: 100vh;
 }
+
+.plano {
+    width: 200px;
+    aspect-ratio: 1/1;
+}
