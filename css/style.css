@@ -20,6 +20,7 @@ body {
     aspect-ratio: 1/1;
     position: relative;
     transform-style: preserve-3d;
+    background-color: #dddfff;
 }
 
 .cartesian > div {
