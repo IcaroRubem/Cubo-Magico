@@ -10,14 +10,20 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: #000000;
+}
+
+.cartesian {
+    width: 200px;
+    aspect-ratio: 1/1;
     position: relative;
     transform-style: preserve-3d;
+    background-color: #c47878;
 }
 
 .planoX, .planoY {
+    width: 100%;
+    height: 100%;
     display: flex;
-    width: 200px;
-    aspect-ratio: 1/1;
     background-color: #ffffff;
     position: absolute;
     border: 2px solid #df0000;
