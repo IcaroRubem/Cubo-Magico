@@ -33,9 +33,11 @@ body {
     transform-style: preserve-3d;
 }
 
-.top {}
+.top {
+    background-color: #e60000;
+}
 .bottom {}
-.left {} 
+.left {}
 .right {}
 .front {}
 .back {}
