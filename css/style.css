@@ -60,5 +60,5 @@ body {
     aspect-ratio: 1/1;
     background-color: #d22a2a;
     transform-origin: 50% 50%;
-    transform: translateX(50%) rotateY(90deg);
+    transform: translateX(-50%) rotateY(90deg);
 }
