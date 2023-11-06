@@ -18,7 +18,7 @@ body {
     width: 200px;
     aspect-ratio: 1/1;
     background-color: #ffffff;
-    position: absolute;
+   /* position: absolute;*/
     border: 2px solid #df0000;
     transform-origin: center;
 }
