@@ -24,13 +24,21 @@ body {
 
 .x, .y, .z {
     position: absolute;
-    background-color: #00f204;
     width: 30px;
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
 }
 
+.x {
+    background-color: #00f204;
+}
+
 .y {
     transform: rotateX(90deg);
+    background-color: #5600f2;
+}
+
+.z {
+    background-color: #00dcf2;
 }
