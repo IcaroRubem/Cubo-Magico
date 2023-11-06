@@ -37,8 +37,6 @@ function rotateSelf(element) {
 
     rotation = rotate != ""?Number(rotate.replace("px",
         "")): 0
-     
 
-
-    console.log(rotate)
+    console.log(rotation)
 }
