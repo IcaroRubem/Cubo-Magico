@@ -36,7 +36,7 @@ function rotateSelf(element) {
     let rotate = element.style.transform
 
     //rotate = rotate != ""?Number(rotate.replace("deg",
-   // "")): 0
-
-console.log(rotate)
+    // "")): 0
+    element.style.transform = "rotateY(90deg)"
+    console.log(rotate)
 }
