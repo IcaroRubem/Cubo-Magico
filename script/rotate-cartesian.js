@@ -24,9 +24,9 @@ document.addEventListener('touchmove', (touch) => {
     }
 
     if (clientY > touch.target.offsetHeight / 2) {
-        rotateY += 1
-    } else {
         rotateY -= 1
+    } else {
+        rotateY += 1
     }
 
     cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
