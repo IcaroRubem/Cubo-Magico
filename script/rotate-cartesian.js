@@ -37,6 +37,6 @@ function rotateSelf(element) {
 
     //rotate = rotate != ""?Number(rotate.replace("deg",
     // "")): 0
-    element.style.transform = "translateX(50%) rotateY(90deg) rotateX(90deg)"
+    element.style.transform = "translateX(50%) rotateY(90deg) rotateZ(90deg)"
     console.log(rotate)
 }
