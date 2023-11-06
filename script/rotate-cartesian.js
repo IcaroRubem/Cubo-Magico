@@ -17,18 +17,17 @@ document.addEventListener('touchmove', (touch) => {
         clientX, clientY
     } = touch.touches[0]
 
-    if (clientX > 0) {
+    if (clientX > touch.target.offsetWidth / 2) {
         rotateX -= 1
     } else {
         rotateX += 1
     }
 
-    if (clientY > 0) {
+    if (clientY > touch.target.offsetHeight / 2) {
         rotateY += 1
     } else {
         rotateY -= 1
     }
 
     cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
-    console.log(touch.target.offsetWidth)
 })
