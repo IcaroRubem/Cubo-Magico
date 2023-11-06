@@ -31,7 +31,3 @@ document.addEventListener('touchmove', (touch) => {
 
     cartesian.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
 })
-
-db.addEventListener('input', (e) => {
-    tp.style.transform = `translateX(50%) rotateY(90deg)`
-})
