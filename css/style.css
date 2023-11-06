@@ -35,6 +35,7 @@ body {
 
 .top {
     background-color: #e60000;
+    transform: translateX(50%);
 }
 .bottom {
     background-color: #0d00e6;
