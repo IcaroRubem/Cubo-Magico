@@ -47,6 +47,7 @@ body {
 }
 .right {
     background-color: #00b6e6;
+    transform: translateY(-50%) rotateX(90deg);
 }
 .front {
     background-color: #dee600;
