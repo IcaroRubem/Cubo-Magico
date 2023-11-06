@@ -43,3 +43,11 @@ body {
     background-color: #00dcf2;
     transform: rotateZ(90deg);
 }
+
+.top {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: #ffffff;
+    transform-origin: center;
+    transform: translateX(50%);
+}
