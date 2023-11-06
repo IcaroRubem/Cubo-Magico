@@ -23,5 +23,5 @@ body {
 }
 
 .planoX {
-    transform: rotate(90deg);
+    transform: rotateX(90deg);
 }
