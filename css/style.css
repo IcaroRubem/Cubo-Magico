@@ -19,4 +19,9 @@ body {
     background-color: #ffffff;
     position: absolute;
     border: 2px solid #df0000;
+    transform-origin: center;
+}
+
+.planoX {
+    transform: rotate(90deg);
 }
