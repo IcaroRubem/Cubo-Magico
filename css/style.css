@@ -47,7 +47,7 @@ body {
     transform: rotateZ(90deg);
 }
 
-.top {
+.topX, .topY {
     height: 100%;
     aspect-ratio: 1/1;
     background-color: #ffffff;
